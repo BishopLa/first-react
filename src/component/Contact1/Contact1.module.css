@@ -1,0 +1,23 @@
+.container{
+    background-image: url(../../assets/acer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.container h1{
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    font-size: 42px;
+    color: goldenrod;
+    font-weight: 500;
+    margin: auto;
+    width: 95%;
+}
+
+.container p{
+    margin-left: 2rem;
+    width: 25%;
+    font-size:18px;
+}

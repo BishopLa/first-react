@@ -1,0 +1,15 @@
+.container {
+    background-color: darkslategrey;
+    height: 100vh;
+    margin: auto;
+    width: 100%;
+}
+.container p{
+    color: antiquewhite;
+    background-color: darkslategrey;
+    height: 8rem;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    padding-top: 2rem;
+}
