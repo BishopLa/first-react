@@ -1,23 +1,22 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom/cjs/react-router-dom.min';
 import './App.css';
-import Home from './Pages/Home/Home';
-import Contact from './Pages/Contact/Contact';
+import Driving from './Pages/Driving/Driving';
+import Test from './Pages/Test/Test';
 import Services from './Pages/Services/Services';
-import Navbar from './component/Navbar/Navbar';
-import Footer from './component/Footer/Footer';
+import About from './Pages/About/About';
+import Contact from './Pages/Contact/Contact';
 
 function App() {
   return (
     <div className="App">
-      {/* <Classwork/> */}
       <BrowserRouter>
-      <Navbar/>
       <Switch>
-        <Route path="/" exact component={Home}/>
-        <Route path="/contact" exact component={Contact}/>
+        <Route path="/" exact component={Driving}/>
+        <Route path="/test" exact component={Test}/>
         <Route path="/services" exact component={Services}/>
+        <Route path="/About" exact component={About}/>
+        <Route path="/Contact" exact component={Contact}/>
       </Switch>
-      <Footer/>
       </BrowserRouter>
     </div>
   );
