@@ -4,6 +4,7 @@ import Hero from '../../components/HeroDrive/HeroDrive'
 import Contact from '../../components/ContactUs/ContactUs'
 import Welcome from '../../components/Welcome/Welcome'
 import Services from '../../components/Services/Services'
+import Testimonials from '../../components/Testimonials/Testimonials'
 
 const driving = () => {
   return (
@@ -13,6 +14,7 @@ const driving = () => {
       <Welcome/>
       <Services/>
       <Contact/>
+      <Testimonials/>
     </div>
   )
 }

@@ -21,6 +21,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin: auto;
 }
 
 .serviceCard {
@@ -35,14 +36,16 @@
   padding-top: 2rem;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
-
 }
 
-.serviceCard h3 {
+
+.cardText h3 {
   color: var(--black, #1f1f21);
   font-size: 40px;
   font-family: Lato;
   font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .cardText p {
@@ -50,4 +53,10 @@
   font-size: 19px;
   font-family: Lato;
   line-height: 140%;
+}
+
+.serviceCard:hover{
+  border-radius: 8px;
+  background: var(--mayframe-colour, #1429A9);
+  color: var(--white, #FFF);
 }
