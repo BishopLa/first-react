@@ -18,6 +18,8 @@ function App() {
         <Route path="/Contact" exact component={Contact}/>
       </Switch>
       </BrowserRouter>
+
+      
     </div>
   );
 }

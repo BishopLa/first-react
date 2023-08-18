@@ -1,5 +1,6 @@
 import React from 'react'
 import classes from './HeroDrive.module.css'
+import Herodriveprops from '../../components/Herodriveprops/Herodriveprops'
 
 const HeroDrive = () => {
   return (
@@ -7,23 +8,15 @@ const HeroDrive = () => {
     <div className={classes.container}>
     </div>
         <div className={classes.cardContainer}>
-        <div className={classes.cardWrap}> 
-            <div className={classes.card}>
-                    <h1>15+</h1>
-                    <p>Over 15 years of experience</p>
-             </div>
-             <div className={classes.line}></div>
-            <div className={classes.card}>
-                    <h1>90%</h1>
-                    <p>High passing rate</p>
-             </div>
-             <div className={classes.line}></div>
-            <div className={classes.card}>
-                    <h1>200</h1>
-                    <p>Over 200 students taught</p>
-             </div>
-        </div>
-        </div>
+       <Herodriveprops 
+       headA = "15+"
+       textA = "Over 15 years of experience"
+       headB = "90%"
+       textB = "High passing rate"
+       headC = "200"
+       textC = "Over 200 students taught"
+       />
+    </div>
     </div>
   )
 }

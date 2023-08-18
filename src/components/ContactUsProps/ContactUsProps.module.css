@@ -1,0 +1,86 @@
+.innerContainer{
+width: 95%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+
+.textContainer{
+    width: 45%;
+    margin-top: 20rem;
+}
+
+
+.formContainer{
+    width: 50%;
+    border-radius: 8px;
+    background: #FFF;
+    height: 600px;
+    margin-top: 3rem;
+    text-align: center;
+
+}
+.textContainer h1{
+color: var(--white, #FFF);
+font-size: 40px;
+font-family: Lato;
+font-weight: 700;
+line-height: 140%; 
+}
+
+form input{
+width: 90%;
+border-radius: 8px;
+border: 1px solid rgba(117, 117, 117, 1);
+height: 45.807px;
+background: rgba(225, 225, 225, 1);
+align-items: center;
+gap: .5rem;
+margin-bottom: 2rem;
+color: #757575;
+font-size: 16px;
+font-family: Lato;
+padding-left: 1rem;
+}
+
+.Messages{
+    width: 90%;
+    border-radius: 8px;
+    height: 120px;
+    background: rgba(225, 225, 225, 1);
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: rem;
+    color: #757575;
+    font-size: 16px;
+    font-family: Lato;
+    padding-bottom: 2rem;
+    }
+
+::-webkit-input-placeholder{
+    color: black;
+    padding-left: .1rem;
+}
+
+form h3{
+color: #1429A9;
+font-size: 37.445px;
+font-family: Lato;
+font-weight: 700;
+line-height: 140%;
+margin-top: 1.5rem;
+margin-bottom: 1rem;
+}
+
+.formContainer button{
+border-radius: 8px;
+background: #1429A9;
+height: 56.168px;
+width: 90%;
+color: #FFF;
+font-size: 24px;
+font-family: Lato;
+font-weight: 700;
+line-height: 133.5%;
+cursor: pointer;
+}

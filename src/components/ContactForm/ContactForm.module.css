@@ -1,0 +1,120 @@
+.container {
+  width: 100%;
+  margin: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.innercontainer {
+  width: 85%;
+  margin: auto;
+  
+}
+.innercontainer h2 {
+  text-align: center;
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+.innercontainer h5{
+    color: var(--black, #1F1F21);
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+padding-top: 2rem;
+padding-bottom: 1rem;
+}
+.maincontainer {
+  display: flex;
+  justify-content: space-between;
+}
+.sectionText{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+.sectionText p{
+color: var(--light-black, #515151);
+font-family: Lato;
+font-size: 21px;
+font-style: normal;
+font-weight: 400;
+
+}
+.aboutInfo{
+
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 90%; */
+    padding-top: 1.5rem;
+    text-align: left;
+
+}
+
+.aboutInfo p{
+    color: var(--light-black, #515151);
+    font-family: Lato;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 1rem;
+    }
+
+.socials{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+.TwitterSocial{
+    color: #C19D59;
+    width: 24px;
+height: 24px;
+cursor:pointer;
+}
+
+.sectionForm{
+    width: 60%;
+    /* padding-top: 2rem; */
+}
+form input{
+width: 90%;
+height: 60px;
+border-radius: 8px;
+border: 1.5px solid #CACACA;
+background: #F9F9F9;
+color: #515151;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+margin-bottom: 2rem;
+}
+
+.Message{
+    width: 90%;
+    height: 179px;
+border-radius: 8px;
+border: 1.5px solid #CACACA;
+background: #F9F9F9;
+gap: 1rem;
+margin-bottom: 2rem;
+color: #757575;
+font-size: 16px;
+font-family: Lato;
+padding-bottom: 6rem;
+}
+
+.sectionForm button{
+    border-radius: 8px;
+    background: #1429A9;
+    height: 56.168px;
+    width: 30%;
+    color: #FFF;
+    font-size: 24px;
+    font-family: Lato;
+    cursor: pointer;
+    }

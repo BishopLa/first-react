@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  margin: auto;
+  background: #f8f8f9;
+  margin-bottom: 5rem;
+}
+.innercontainer {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.textContainer {
+  margin-top: 12rem;
+  margin-left: 5rem;
+}
+.textContainer h3 {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+}
+.textContainer h4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.textContainer p {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+}

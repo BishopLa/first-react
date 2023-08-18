@@ -1,0 +1,100 @@
+.Conatainer {
+  width: 100%;
+  margin: auto;
+  margin-top: 8rem;
+  background-color: #f7f8ff;
+  position: relative;
+}
+.innerContainer {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 8rem;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.columnOne {
+  width: 35%;
+}
+.mfLogo{
+    margin-bottom: 1rem;
+}
+.footerText p {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+margin-bottom: 2rem;
+}
+
+.Footerinfo {
+  display: flex;
+}
+.columnTwo{
+    width: 15%;
+}
+.columnTwo h4 {
+  color: var(--mayframe-colour, #1429a9);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.navlink li {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: .5rem;
+}
+.columnThree {
+  width: 13%;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+.columnThree h4 {
+  color: var(--mayframe-colour, #1429a9);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.Email {
+  width: 30%;
+}
+.Email h4 {
+  color: var(--mayframe-colour, #1429a9);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+.Email p {
+  color: var(--black, #1f1f21);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+.scrollUp {
+  position: relative;
+}
+.iconscroll {
+  position: fixed;
+  bottom: 40px;
+  right: 25px;
+  z-index: 20;
+  fill: var(--secondary-yellow, #c19d59);
+  width: 48px;
+  height: 48px;
+}
