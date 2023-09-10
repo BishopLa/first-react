@@ -14,7 +14,7 @@ const ConsultServices = () => {
             <h3>Our Services</h3>
 
             <div className={classes.mainContainer}>
-                <div className={classes.picContainer}>
+                <div className={classes.picsContainer}>
                 <img src={Keyboard} alt='Keyboard'/>
                 </div>
                 <div className={classes.textContainer}>
@@ -56,7 +56,7 @@ const ConsultServices = () => {
                 </div>
             </div>
             <div className={classes.mainContainer}>
-                <div className={classes.picContainer}>
+                <div className={classes.picsContainer}>
                 <img src={Hall} alt='Hall'/>
                 </div>
                 <div className={classes.textContainer}>

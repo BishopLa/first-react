@@ -37,9 +37,9 @@ setNavOpen(false);
                 </Link>
             </ul>
             <div className={classes.hamburger} onClick= {handleNavToggle}>
-                { navOpen ? (<HiOutlineMenuAlt4 className ={classes.Icons}/>
+                { navOpen ? (<AiOutlineClose className ={classes.Icons}/>
                 ):(
-                    <AiOutlineClose className={classes.Icons}/>
+                    <HiOutlineMenuAlt4 className={classes.Icons}/>
                 )}
             </div>
                 <div className={navOpen ? classes.active : classes.mobileMenu}>
@@ -59,7 +59,6 @@ setNavOpen(false);
             </ul>
             </div>
         </div>
-
     </div>
   )
 }

@@ -27,7 +27,7 @@ a:-webkit-any-link {
     text-decoration: none;
     cursor: pointer;
   }
-li{
+.mobileNav li{
     list-style: none;
     padding: 1rem 1.5rem 0;
     text-decoration: none;
@@ -38,7 +38,7 @@ li{
     line-height: 140.5%;
 }
 
-li:hover{
+.mobileNav li:hover{
     font-weight: bold;
 }
 .hamburger{
@@ -51,6 +51,19 @@ li:hover{
 
 @media screen and (max-width: 768px) {
 
+    /* .container{
+        width: 83.8%;
+    } */
+    .navMenu{
+        display: none;
+    }
+
+}
+@media screen and (max-width: 425px) {
+
+    /* .container{
+        width: 50%;
+    } */
     .navMenu{
         display: none;
     }
@@ -74,7 +87,8 @@ li:hover{
         top: 80px; 
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 40%;
+        font-size: 1rem;
         position: absolute;
         justify-content:space-between;
         right:0;
