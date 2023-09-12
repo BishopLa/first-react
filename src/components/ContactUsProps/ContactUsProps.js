@@ -32,7 +32,7 @@ const ContactUsProps = (props) => {
   return (
     <div className={classes.container}>
         <div className={classes.innerContainer}>
-          <div className={classes.textContainer}>
+          <div className={classes.textssContainer}>
             <h1>{props.sideText}</h1>
             </div>
             <div className={classes.formContainer}>

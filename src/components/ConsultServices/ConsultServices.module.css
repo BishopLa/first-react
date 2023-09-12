@@ -10,11 +10,11 @@
     padding-bottom: 4rem;
     align-items: center;
 }
-.textContainer{
+.textContainers{
     width: 50%;
 }
 
-.textContainer ul {
+.textContainers ul {
     list-style: none;
     width: 70%;
     color: var(--light-black, #515151);
@@ -23,7 +23,7 @@
     font-size: 1.312rem;
   }
   
-  .textContainer ul li::before {
+  .textContainers ul li::before {
     content: "\25AA";
     color: #C19D59;;
     font-weight: bold;
@@ -73,18 +73,18 @@ line-height: 1.3rem;
     .mainContainer{
         padding-bottom: 3rem;
     }
-    .textContainer{
+    .textContainers{
         width: 70%;
     }
     
-    .textContainer ul {
+    .textContainers ul {
         list-style: none;
         width: 70%;
         font-size: 1rem;
         line-height: 1.3rem;
       }
       
-      .textContainer ul li::before {
+      .textContainers ul li::before {
         content: "\25AA";
         color: #C19D59;;
         font-weight: bold;
@@ -120,18 +120,18 @@ line-height: 1.3rem;
     .mainContainer{
         padding-bottom: 3rem;
     }
-    .textContainer{
+    .textContainers{
         width: 70%;
     }
     
-    .textContainer ul {
+    .textContainers ul {
         list-style: none;
         width: 80%;
         font-size: 0.8rem;
         line-height: 1.3rem;
       }
       
-      .textContainer ul li::before {
+      .textContainers ul li::before {
         content: "\25AA";
         color: #C19D59;;
         font-weight: bold;
@@ -168,18 +168,19 @@ line-height: 1.3rem;
         display: grid;
         padding-bottom: 2rem;
     }
-    .textContainer{
+    .textContainers{
         width: 90%;
+        margin-bottom: 1rem;
     }
     
-    .textContainer ul {
+    .textContainers ul li{
         list-style: none;
-        width: 80%;
+        width: 100%;
         font-size: 0.8rem;
         line-height: 1.3rem;
       }
       
-      .textContainer ul li::before {
+      .textContainers ul li::before {
         content: "\25AA";
         color: #C19D59;;
         font-weight: bold;

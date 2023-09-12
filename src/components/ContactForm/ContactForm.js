@@ -82,14 +82,14 @@ const ContactForm = () => {
         </div>
 
 
-        <div className={classes.sectionForm}>
+        <div className={classes.sectionFormA}>
         <form ref={form} onSubmit={sendEmail}>
                 <div className={classes.MyRow}>{result ? <Result /> : null } </div>
               <input type='text' name='FirstName' placeholder='First Name'></input>
               <input type='text' name='LastName' placeholder='Last Name'></input>
               <input type='text' name='Email' placeholder='Email Address'></input>
               <input type='text' name='Phone' placeholder='Phone Number'></input>
-              <input type='text' name='Message' placeholder='Message' className={classes.Message}></input>
+              <input type='text' name='Message' placeholder='Message' className={classes.MessagesA}></input>
               <button>Send Message</button>
               </form>
         </div>

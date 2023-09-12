@@ -148,6 +148,9 @@ font-size: 14px;
 }
 }
 @media (max-width: 425px){
+   .container{
+    width: 100%;
+   }
     .herotext {
         width: 100%;
         margin: auto;  

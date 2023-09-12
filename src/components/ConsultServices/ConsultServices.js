@@ -31,7 +31,7 @@ const ConsultServices = () => {
             </div>
 
             <div className={classes.mainContainer}>
-                <div className={classes.textContainer}>
+                <div className={classes.textContainers}>
                     <h4>Company Registration</h4>
                     <p>We assist in business registration through 
                     corporate affairs commission (CAC). We assist
